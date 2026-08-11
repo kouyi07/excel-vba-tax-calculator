@@ -51,7 +51,7 @@ plain `.cls`/`.bas` files so the logic is readable directly on GitHub without op
 
 ## How to use
 
-1. Download `Project_V6_Pw-1.xlsm` and open in Excel (enable macros).
+1. Download `Project.xlsm` and open in Excel (enable macros).
 2. Enter your expenses in the **Expenses (2023)** sheet, tagging each with a Tax Relief
    Category from the **Categories** sheet.
 3. Fill in the orange input cells in **Tax Report Calculator** / **Input Form**.
