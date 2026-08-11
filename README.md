@@ -45,8 +45,8 @@ controls) + VBA (event-driven macros, PivotTable/Slicer API, PDF export via
 ## Repo contents
 
 ```
-Project_V6_Pw-1.xlsm     # the workbook itself
-vba_modules/              # VBA source extracted to plain text for readability/version control
+Project.xlsm     # the workbook itself
+vba_modules/     # VBA source extracted to plain text for readability/version control
 README.md
 ```
 
