@@ -7,15 +7,20 @@ capabilities beyond formulas: dynamic forms, pivot-driven dashboards, and one-cl
 ## What it does
 
 1. **Log expenses** in a structured dataset (date, item, category, subcategory, recipient,
-   amount, and tax-relief category).
-2. **Auto-categorize** each expense against Malaysia's official LHDN tax-relief categories
+   total price, and tax-relief category).
+   ![Expense log](images/screenshot1.png)
+2. **Auto-categorise** each expense against Malaysia's official LHDN tax-relief categories
    and their statutory caps (e.g. Lifestyle RM2,500, Medical RM10,000, EPF, SSPN, etc.).
+   ![Tax relief categories](images/screenshot2.png)
 3. **Compute tax liability** using the official YA2023 tax computation structure (aggregate
    income → total relief → taxable income → tax payable → rebates → balance payable),
-   pulling relief totals straight from the categorized expense log.
-4. **Visualize spend** via pivot tables and an interactive dashboard (Top 5 / Bottom 5
-   recipients, category breakdowns).
-5. **Export** the Tax Report, Tax Summary, or Input Form as a ready-to-file PDF with a
+   pulling relief totals straight from the categorised expense log.
+    ![Tax report calculator](images/screenshot3.png)
+4. **Visualise spend** via an interactive dashboard with KPI summaries, category and monthly
+   trend charts, a Top 5 / Bottom 5 recipient view, and a subcategory drill-down — all
+   filterable by month and category.
+   ![Expense dashboard](images/screenshot4.png)
+6. **Export** the Tax Report, Tax Summary, or Input Form as a ready-to-file PDF with a
    single button click.
 
 ## Features
@@ -43,6 +48,7 @@ controls) + VBA (event-driven macros, PivotTable/Slicer API, PDF export via
 ```
 Project.xlsm     # the workbook itself
 vba_modules/     # VBA source extracted to plain text for readability/version control
+images           # screenshots to demonstrate the features
 README.md
 ```
 
@@ -56,6 +62,11 @@ plain `.cls`/`.bas` files so the logic is readable directly on GitHub without op
    Category from the **Categories** sheet.
 3. Fill in the orange input cells in **Tax Report Calculator** / **Input Form**.
 4. View the computed tax liability in **Tax Summary**, or export a PDF via the button.
+
+## Authors
+
+- Pang Kou Yi, http://www.linkedin.com/in/pang-kou-yi
+- Gan Wei Hang
 
 ## Disclaimer
 
