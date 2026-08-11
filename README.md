@@ -7,7 +7,7 @@ capabilities beyond formulas: dynamic forms, pivot-driven dashboards, and one-cl
 ## What it does
 
 1. **Log expenses** in a structured dataset (date, item, category, subcategory, recipient,
-   amount, and tax-relief category).
+   total price, and tax-relief category).
    ![Expense log](images/screenshot1.png)
 2. ** Auto-categorise ** each expense against Malaysia's official LHDN tax-relief categories
    and their statutory caps (e.g. Lifestyle RM2,500, Medical RM10,000, EPF, SSPN, etc.).
@@ -16,8 +16,8 @@ capabilities beyond formulas: dynamic forms, pivot-driven dashboards, and one-cl
    income → total relief → taxable income → tax payable → rebates → balance payable),
    pulling relief totals straight from the categorised expense log.
     ![Tax report calculator](images/screenshot3.png)
-4. ** Visualise spend** via pivot tables and an interactive dashboard (Top 5 / Bottom 5
-   recipients, category breakdowns).
+4. ** Visualize spend** via an interactive dashboard with KPI summaries, category and monthly
+   trend charts, a Top 5 / Bottom 5 recipient view, and a subcategory drill-down — all filterable by month and category.
    ![Expense dashboard](images/screenshot4.png)
 5. **Export** the Tax Report, Tax Summary, or Input Form as a ready-to-file PDF with a
    single button click.
