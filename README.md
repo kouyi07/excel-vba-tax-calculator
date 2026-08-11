@@ -4,10 +4,6 @@ A macro-enabled Excel workbook that turns a personal expense log into a full LHD
 (Malaysian tax authority) income tax computation — built to explore advanced Excel and VBA
 capabilities beyond formulas: dynamic forms, pivot-driven dashboards, and one-click reporting.
 
-> **Note:** This is an Excel/VBA engineering project, not a data analysis project. It's included
-> here as a demonstration of advanced spreadsheet tooling and automation skills, alongside my
-> data analysis work in other repos.
-
 ## What it does
 
 1. **Log expenses** in a structured dataset (date, item, category, subcategory, recipient,
@@ -45,8 +41,8 @@ controls) + VBA (event-driven macros, PivotTable/Slicer API, PDF export via
 ## Repo contents
 
 ```
-Project_V6_Pw-1.xlsm     # the workbook itself
-vba_modules/              # VBA source extracted to plain text for readability/version control
+Project.xlsm     # the workbook itself
+vba_modules/     # VBA source extracted to plain text for readability/version control
 README.md
 ```
 
@@ -55,7 +51,7 @@ plain `.cls`/`.bas` files so the logic is readable directly on GitHub without op
 
 ## How to use
 
-1. Download `Project_V6_Pw-1.xlsm` and open in Excel (enable macros).
+1. Download `Project.xlsm` and open in Excel (enable macros).
 2. Enter your expenses in the **Expenses (2023)** sheet, tagging each with a Tax Relief
    Category from the **Categories** sheet.
 3. Fill in the orange input cells in **Tax Report Calculator** / **Input Form**.
