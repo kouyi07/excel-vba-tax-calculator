@@ -9,14 +9,17 @@ capabilities beyond formulas: dynamic forms, pivot-driven dashboards, and one-cl
 1. **Log expenses** in a structured dataset (date, item, category, subcategory, recipient,
    amount, and tax-relief category).
    ![Expense log](images/screenshot1.png)
-3. ** Auto-categorise ** each expense against Malaysia's official LHDN tax-relief categories
+2. ** Auto-categorise ** each expense against Malaysia's official LHDN tax-relief categories
    and their statutory caps (e.g. Lifestyle RM2,500, Medical RM10,000, EPF, SSPN, etc.).
-4. **Compute tax liability** using the official YA2023 tax computation structure (aggregate
+   ![Tax relief categories](images/screenshot2.png)
+3. **Compute tax liability** using the official YA2023 tax computation structure (aggregate
    income → total relief → taxable income → tax payable → rebates → balance payable),
    pulling relief totals straight from the categorised expense log.
-5. ** Visualise spend** via pivot tables and an interactive dashboard (Top 5 / Bottom 5
+    ![Tax report calculator](images/screenshot3.png)
+4. ** Visualise spend** via pivot tables and an interactive dashboard (Top 5 / Bottom 5
    recipients, category breakdowns).
-6. **Export** the Tax Report, Tax Summary, or Input Form as a ready-to-file PDF with a
+   ![Expense dashboard](images/screenshot4.png)
+5. **Export** the Tax Report, Tax Summary, or Input Form as a ready-to-file PDF with a
    single button click.
 
 ## Features
