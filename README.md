@@ -8,14 +8,15 @@ capabilities beyond formulas: dynamic forms, pivot-driven dashboards, and one-cl
 
 1. **Log expenses** in a structured dataset (date, item, category, subcategory, recipient,
    amount, and tax-relief category).
-2. **Auto-categorize** each expense against Malaysia's official LHDN tax-relief categories
+   ![Expense log](images/screenshot1.png)
+3. ** Auto-categorise ** each expense against Malaysia's official LHDN tax-relief categories
    and their statutory caps (e.g. Lifestyle RM2,500, Medical RM10,000, EPF, SSPN, etc.).
-3. **Compute tax liability** using the official YA2023 tax computation structure (aggregate
+4. **Compute tax liability** using the official YA2023 tax computation structure (aggregate
    income → total relief → taxable income → tax payable → rebates → balance payable),
-   pulling relief totals straight from the categorized expense log.
-4. **Visualize spend** via pivot tables and an interactive dashboard (Top 5 / Bottom 5
+   pulling relief totals straight from the categorised expense log.
+5. ** Visualise spend** via pivot tables and an interactive dashboard (Top 5 / Bottom 5
    recipients, category breakdowns).
-5. **Export** the Tax Report, Tax Summary, or Input Form as a ready-to-file PDF with a
+6. **Export** the Tax Report, Tax Summary, or Input Form as a ready-to-file PDF with a
    single button click.
 
 ## Features
@@ -60,8 +61,8 @@ plain `.cls`/`.bas` files so the logic is readable directly on GitHub without op
 
 ## Authors
 
-Pang Kou Yi
-Gan Wei Hang
+- Pang Kou Yi, http://www.linkedin.com/in/pang-kou-yi
+- Gan Wei Hang
 
 ## Disclaimer
 
