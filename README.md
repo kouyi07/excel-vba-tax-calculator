@@ -43,6 +43,7 @@ controls) + VBA (event-driven macros, PivotTable/Slicer API, PDF export via
 ```
 Project.xlsm     # the workbook itself
 vba_modules/     # VBA source extracted to plain text for readability/version control
+images           # screenshots to demonstrate the features
 README.md
 ```
 
@@ -56,6 +57,11 @@ plain `.cls`/`.bas` files so the logic is readable directly on GitHub without op
    Category from the **Categories** sheet.
 3. Fill in the orange input cells in **Tax Report Calculator** / **Input Form**.
 4. View the computed tax liability in **Tax Summary**, or export a PDF via the button.
+
+## Authors
+
+Pang Kou Yi
+Gan Wei Hang
 
 ## Disclaimer
 
