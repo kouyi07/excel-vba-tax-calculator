@@ -4,10 +4,6 @@ A macro-enabled Excel workbook that turns a personal expense log into a full LHD
 (Malaysian tax authority) income tax computation — built to explore advanced Excel and VBA
 capabilities beyond formulas: dynamic forms, pivot-driven dashboards, and one-click reporting.
 
-> **Note:** This is an Excel/VBA engineering project, not a data analysis project. It's included
-> here as a demonstration of advanced spreadsheet tooling and automation skills, alongside my
-> data analysis work in other repos.
-
 ## What it does
 
 1. **Log expenses** in a structured dataset (date, item, category, subcategory, recipient,
